@@ -88,22 +88,26 @@
 
 .features__title--img-slim::after {
   position: absolute;
-  width: 140px;
-  height: 194px;
+  width: 36px;
+  height: 50px;
   background-image: url("../img/svg/cat_slim.svg");
   background-size: 36px 50px;
   background-repeat: no-repeat;
-  transform: translate(6px, 68px);
+  transform: translate(6px,-3px);
   content: "";
 
   @media (min-width: $tablet-width) {
-    background-size: inherit;
+    width: 140px;
+    height: 194px;
+    background-size: 140px 194px;
     right: 13%;
     top: 22%;
     transform: none;
   }
 
   @media (min-width: $desktop-width) {
+    width: 70px;
+    height: 97px;
     background-size: 70px 97px;
     left: 66px;
     top: 40px;
@@ -138,22 +142,26 @@
 
 .features__title--img-pro::after {
   position: absolute;
-  width: 268px;
-  height: 112px;
+  width: 67px;
+  height: 28px;
   background-image: url("../img/svg/cat_pro.svg");
   background-size: 67px 28px;
   background-repeat: no-repeat;
-  transform: translate(-10px, 40px);
+  transform: translate(-10px, 2px);
   content: "";
 
   @media (min-width: $tablet-width) {
-    background-size: inherit;
+    width: 268px;
+    height: 112px;
+    background-size: 268px 112px;
     right: 4%;
     top: 37%;
     transform: none;
   }
 
   @media (min-width: $desktop-width) {
+    width: 134px;
+    height: 56px;
     background-size: 134px 56px;
     left: 32px;
     top: 66px;
